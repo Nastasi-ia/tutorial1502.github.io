@@ -1,15 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Форест Тревел</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
-    <main class="main">
-        <h1 class="title">Привет козявка it's mesvsvvs</h1>
-        
+<body class="sticky-footer">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html"><img src="./img/logo/logo.svg" alt="Логотип"></a>
+                
+                <ul class="nav-list">
+                    <li class="list-item active"><a href="./index.html">Главная</a></li>
+                    <li class="list-item"><a href="tours.html">Туры</a></li>
+                    <li class="list-item"><a href="about.html">О компании</a></li>
+                    <li class="list-item"><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-page">
+        <div class="container">
+            <section class="promo">
+                <h1 class="promo-title">Открой Мир</h1>
+                <p class="promo-subtitle">Путешествуй. Исследуй. Открывай</p>
+            </section>
+
+            <div class="main-content">
+                <section class="card">
+                    <div class="content-img">
+                        <img class="card-img" src="./img/main/main-content/img-01.jpg" srcset="./img/main/main-content/img-01@2x.jpg 2x" alt="01">
+                    </div>
+                    <div class="card-desc">
+                        <h2 class="title-2"><span>Популярные</span> направления</h2>
+                        <p>Уникальные впечатления и незабываемые моменты. От загадочных уголков древних городов до бескрайних пляжей с кристально чистой водой. Погрузитесь в культурные сокровища Европы, ощутите волнение азиатских приключений, или отправьтесь на удивительные острова - выбор за вами.</p>
+                        <p><a class="card-read-more" href="#!">Подробнее</a></p>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="content-img">
+                        <img class="card-img" src="./img/main/main-content/img-02.jpg" srcset="./img/main/main-content/img-02@2x.jpg 2x" alt="02">
+                    </div>
+                    <div class="card-desc">
+                        <h2 class="title-2"><span>Впечатляющие</span> маршруты</h2>
+                        <p>Пройдите путем, который проложен для тех, кто ищет нечто особенное: от восхитительных природных пейзажей и культурных сокровищ до захватывающих городских приключений. Поддайтесь магии увлекательных маршрутов ЭпикТрэвел и дайте волю своим мечтам – ведь ваше следующее приключение начинается здесь и сейчас.</p>
+                        <a class="card-read-more" href="#!">Подробнее</a>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-row">
+                <div class="footer-copyright">
+                    <p>2024 © ЭпикТрэвел. <br>Все права защищены</p>
+                </div>
+                <address class="footer-contacts">
+                    <a class="tel" href="tel:+79054561234">+7 (905) 456-12-34</a>
+                    <a class="email" href="mailto:info@epictravel.ru">info@epictravel.ru</a>
+                    <p class="address">г. Москва, Рязанский проспект 54, офис 112</p>
+                </address>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
